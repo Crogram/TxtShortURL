@@ -119,14 +119,14 @@ if (isset($_REQUEST['act'])) {
                 $arr = array_reverse($indexes);
                 unset($indexes);
                 $articlelenght = count($arr);
-                $listlenght = ceil($articlelenght / 18);
+                $listlenght = ceil($articlelenght / 10);
                 $p = isset($_REQUEST['p']) ? (int)$_REQUEST['p'] : 1;
                 if ($p < 0 or $p > $listlenght) {
                     $p = 1;
                 }
-                $page = $p * 18;
+                $page = $p * 10;
                 $page = $page > $articlelenght ? $articlelenght : $page;
-                $pages = $page - 18 < 0 ? 0 : $page - 18;
+                $pages = $page - 10 < 0 ? 0 : $page - 10;
                 $pgs = $p - 1;
                 $pgs = $pgs <= 0 ? 1 : $pgs;
                 $pgx = $p + 1;
