@@ -91,7 +91,7 @@ include('./includes/public.php');
         <div class="desc">
             <p>演示：<a href="<?php echo $site_url; ?>/s.php?u=CROGRAM" target="_blank"><?php echo $site_url; ?>/s.php?u=CROGRAM</a></p>
             <div>本系统可以将超长链接缩短，还可以储存文本信息<br/>非链接信息，系统默认以文本方式输出。</div><br />
-            <div>© 2023 <?php echo $config['site_title']; ?> Powered by <a href="https://crogram.org" target="_blank">CROGRAM</a></div>
+            <div>© 2023 <a href="https://github.com/crogram/php-app-shorturl-txt" target="_blank">程江TXT短链接系统</a> Powered by <a href="https://crogram.org" target="_blank">CROGRAM</a></div>
         </div>
     </div>
     <script>

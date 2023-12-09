@@ -165,7 +165,7 @@ if (isset($_REQUEST['act'])) {
         </table>
     </div>
     <div class="footer">
-        <p>© <?php echo date('Y'); ?> Powered by <a href="https://crogram.org" target="_blank">CROGRAM</a> </p>
+        <p>© <?php echo date('Y'); ?> <a href="https://github.com/crogram/php-app-shorturl-txt" target="_blank">程江TXT短链接系统</a> Powered by <a href="https://crogram.org" target="_blank">CROGRAM</a> </p>
     </div>
 
     <script>
