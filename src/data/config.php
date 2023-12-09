@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"site_title":"程江TXT短链接系统","site_closed":"false","ban_wechat":"true","ban_spider":"true","admin_username":"admin","admin_password":"e10adc3949ba59abbe56e057f20f883e","site_keywords":"程江短链接服务,程江TXT短链接系统,短链接,链接缩短","site_description":"本应用基于PHP开发，无需数据库，采用TXT文本存储，只需要有PHP环境即可运行，绿色小巧，可生成短链、可储存文本，用于 URL 转发，展示演示页面等。"}
