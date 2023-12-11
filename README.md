@@ -11,15 +11,15 @@
 1. 将压缩包直接放入网站根目录解压即可，网站迁移直接打包传到目标服务器解压即可
 2. 后台地址 /admin，管理员账号：admin，密码：123456
 
-演示网址：http://rentry.uiisc.com
+演示网址：http://rentry.usite.pub
 
 ## 链接使用示例
 
 ```
-跳转链接：http://rentry.uiisc.com/s.php?u=CROGRAM
-查看链接：http://rentry.uiisc.com/ss.php?u=CROGRAM
-文本链接：http://rentry.uiisc.com/txt.php?u=CROGRAM
-演示链接：http://rentry.uiisc.com/run.php?u=CROGRAM
+跳转链接：http://rentry.usite.pub/s.php?u=CROGRAM
+查看链接：http://rentry.usite.pub/ss.php?u=CROGRAM
+文本链接：http://rentry.usite.pub/txt.php?u=CROGRAM
+演示链接：http://rentry.usite.pub/run.php?u=CROGRAM
 ```
 
 ## 源码目录文件介绍
