@@ -15,8 +15,8 @@ include('./includes/public.php');
    <meta name="referrer" content="never" />
    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-   <meta name="generator" content="PHP-APP-RENTRY" />
-   <meta name="keywords" content="CROGRAM,PHP-APP-RENTRY,PHP-SHORTURL,PHP-URL" />
+   <meta name="generator" content="TxtShortURL" />
+   <meta name="keywords" content="CROGRAM,TxtShortURL,PHP-SHORTURL,PHP-URL" />
    <meta name="description" content="" />
    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" mce_href="favicon.ico">
    <style>

@@ -24,18 +24,26 @@ include('./includes/public.php');
     <meta property="og:url" content="<?php echo $site_url; ?>" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" mce_href="favicon.ico">
     <style>
-        html, body {
+        * {
             margin: 0;
+        }
+        html,
+        body {
             height: 100%;
         }
+
         body {
-            background-image: linear-gradient(#9198e5, #6D26F0);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+                Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+                'Segoe UI Symbol';
+            color: #333;
             text-align: center;
         }
+        p { margin-top: 4px; }
 
         .brandname {
             padding-top: 100px;
-            color: #fff;
+            color: #333;
             font-size: 2rem;
         }
 
@@ -79,19 +87,26 @@ include('./includes/public.php');
             margin-top: 180px;
             font-size: 16px;
         }
+        .footer { margin-top: 10px; }
     </style>
 </head>
 
 <body>
     <div>
         <div class="brandname"><?php echo $config['site_title']; ?></div>
-        <textarea id="url" type="text" value="" rows="4" placeholder="输入URL(以http(s)://开头)或文本"></textarea>
+        <textarea id="url" type="text" value="" rows="5" placeholder="输入 URL(以http(s)://开头)
+或文本"></textarea>
         <br />
         <button id="btn">生成链接</button>
         <div class="desc">
             <p>演示：<a href="<?php echo $site_url; ?>/s.php?u=CROGRAM" target="_blank"><?php echo $site_url; ?>/s.php?u=CROGRAM</a></p>
-            <div>本系统可以将超长链接缩短，还可以储存文本信息<br/>非链接信息，系统默认以文本方式输出。</div><br />
-            <div>© 2023 <a href="https://github.com/crogram/php-app-shorturl-txt" target="_blank">程江TXT短链接系统</a> Powered by <a href="https://crogram.org" target="_blank">CROGRAM</a></div>
+            <p>本系统可以将超长链接缩短，还可以储存文本信息。非链接信息，系统默认以文本方式输出。</p>
+        </div>
+        <div class="footer">
+            <hr />
+            <p>Copyright © <?php echo date('Y'); ?> TxtShortURL All Rights Reserved.</p>
+            <p><a href="https://github.com/Crogram/TxtShortURL" target="_blank">Github</a> <a href="https://gitee.com/crogram/TxtShortURL" target="_blank">Gitee</a></p>
+            <p>Powered by <a href="https://crogram.org" target="_blank">Crogram</a></p>
         </div>
     </div>
     <script>

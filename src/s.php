@@ -33,8 +33,8 @@ if (preg_match($arr, $protocol)) {
   <title><?php echo $config['site_title']; ?></title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="generator" content="PHP-APP-RENTRY" />
-  <meta name="keywords" content="CROGRAM,PHP-APP-RENTRY,PHP-SHORTURL,PHP-URL" />
+  <meta name="generator" content="TxtShortURL" />
+  <meta name="keywords" content="CROGRAM,TxtShortURL,PHP-SHORTURL,PHP-URL" />
   <meta name="description" content="" />
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" mce_href="favicon.ico">
   <style>
@@ -45,7 +45,7 @@ if (preg_match($arr, $protocol)) {
 
     #url {
       width: 60%;
-      height: 600px;
+      height: 400px;
       /* margin-top: 30px; */
       border: 1px solid #6D26F0;
       border-radius: 5px;
@@ -53,8 +53,7 @@ if (preg_match($arr, $protocol)) {
     }
 
     .footer {
-      font-weight: 800;
-      color: #f8f8f8;
+      color: #ccc;
     }
 
 
@@ -76,10 +75,10 @@ if (preg_match($arr, $protocol)) {
   </style>
 </head>
 
-<body style="background-image: linear-gradient(#9198e5,#6D26F0 );">
+<body>
   <div align="center">
-    <h1 class="header"><?php echo $config['site_title']; ?></h1>
-    <textarea id="url" type="text"><?php echo htmlspecialchars($url); ?></textarea><br />
+    <h1 class="header">查看链接内容</h1>
+    <textarea id="url" type="text"><?php echo htmlspecialchars($url); ?></textarea>
     <p class="footer">本系统可以将超长链接缩短，还可以储存文本信息，非链接信息，系统默认以文本方式输出。</p>
   </div>
 </body>

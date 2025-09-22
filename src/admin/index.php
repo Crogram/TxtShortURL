@@ -75,7 +75,7 @@ if (isset($_REQUEST['act'])) {
     <meta name="referrer" content="never" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="generator" content="PHP-APP-RENTRY" />
+    <meta name="generator" content="TxtShortURL" />
     <meta name="keywords" content="<?php echo $config['site_keywords']; ?>" />
     <meta name="description" content="<?php echo $config['site_description']; ?>" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" mce_href="favicon.ico">
@@ -84,11 +84,8 @@ if (isset($_REQUEST['act'])) {
 </head>
 
 <body>
-    <div class="bg">
-        <!-- <img src="<?php echo $site_url; ?>/assets/img/lbg.png" style="display:none" /> -->
-    </div>
     <div class="header">
-        <h1><?php echo $config['site_title']; ?></h1>
+        <h1>TxtShortURL</h1>
     </div>
     <div class="nav">
         <div style="float: left;">
@@ -96,6 +93,8 @@ if (isset($_REQUEST['act'])) {
             <a class="btn" href="<?php echo $site_url; ?>/admin/" title="后台首页">链接管理</a>
             <a class="btn" href="<?php echo $site_url; ?>/admin/?act=indexes" title="更新索引">更新索引</a>
             <a class="btn" href="<?php echo $site_url; ?>/admin/settings.php" title="系统设置">系统设置</a>
+        </div>
+        <div style="float: right;margin-left: 10px;">
             <span class="btn" onclick="unlogin()">退出登录</span>
         </div>
         <div style="float: right;">
@@ -165,7 +164,9 @@ if (isset($_REQUEST['act'])) {
         </table>
     </div>
     <div class="footer">
-        <p>© <?php echo date('Y'); ?> <a href="https://github.com/crogram/php-app-shorturl-txt" target="_blank">程江TXT短链接系统</a> Powered by <a href="https://crogram.org" target="_blank">CROGRAM</a> </p>
+        <p>Copyright © <?php echo date('Y'); ?> TxtShortURL All Rights Reserved.</p>
+        <p><a href="https://github.com/Crogram/TxtShortURL" target="_blank">Github</a> <a href="https://gitee.com/crogram/TxtShortURL" target="_blank">Gitee</a></p>
+        <p>Powered by <a href="https://crogram.org" target="_blank">Crogram</a></p>
     </div>
 
     <script>

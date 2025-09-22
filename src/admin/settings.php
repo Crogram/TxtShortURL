@@ -100,9 +100,8 @@ if (isset($_REQUEST['act']) and $_REQUEST['act'] == 'update') {
 </head>
 
 <body>
-    <div class="bg"></div>
     <div class="header">
-        <h1><?php echo $config['site_title']; ?></h1>
+        <h1>TxtShortURL</h1>
     </div>
 
     <div class="nav">
@@ -110,13 +109,15 @@ if (isset($_REQUEST['act']) and $_REQUEST['act'] == 'update') {
         <a class="btn" href="<?php echo $site_url; ?>/admin" title="后台首页">链接管理</a>
         <a class="btn" href="<?php echo $site_url; ?>/admin/?act=indexes" title="更新索引">更新索引</a>
         <a class="btn" href="<?php echo $site_url; ?>/admin/settings.php" title="系统设置">系统设置</a>
-        <span class="btn" onclick="unlogin()">退出登录</span>
+        <div style="float: right;">
+            <span class="btn" onclick="unlogin()">退出登录</span>
+        </div>
     </div>
     <div class="content">
         <div class="form">
             <div class="form-item">
                 <div class="form-label"></div>
-                <div class="form-input">
+                <div class="">
                     <?php if ($config['site_closed'] == "true") { ?>
                         关闭站点 <input onclick="check0()" id="check0" checked type="checkbox" />
                     <?php } else { ?>
@@ -156,7 +157,7 @@ if (isset($_REQUEST['act']) and $_REQUEST['act'] == 'update') {
             </div>
             <div class="form-item">
                 <div class="form-label"></div>
-                <div class="form-input">
+                <div class="form-input1">
                     <div class="btn" onclick="postadmin()">保存</div>
                 </div>
             </div>
